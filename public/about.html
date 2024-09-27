@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Product</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Josefin Sans", sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Navbar */
+        .navbar {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .navbar ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            background-color: rgba(128, 64, 64, 0.8);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 24px;
+            font-family: "Josefin Sans", sans-serif;
+            transition: background-color 0.3s;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 50px;
+            background-color: #ffffff;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .content h2 {
+            text-align: center;
+            color: #713e39;
+            font-size: 36px;
+            margin-bottom: 30px;
+            margin-top: 5%;
+        }
+
+        /* Product Information Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 50px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #713e39;
+            color: white;
+        }
+
+        /* Product Snapshots */
+        .product-snapshots {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product-snapshots img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        .copyright {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/sellers.html">Sellers</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- About Product Section -->
+    <section class="content">
+        <h2>About Product</h2>
+
+        <!-- Product Information Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Product on Sale</th>
+                    <th>Vendor Name</th>
+                    <th>Product Snapshots</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Organic Vegetables</td>
+                    <td>Shamita</td>
+                    <td><img src="images/vegetables.png" alt="Organic Vegetables"></td>
+                </tr>
+                <tr>
+                    <td>Fresh Groceries</td>
+                    <td>Kamla</td>
+                    <td><img src="images/grocery.png" alt="Fresh Groceries"></td>
+                </tr>
+                <tr>
+                    <td>Designer Clothing</td>
+                    <td>Bhola</td>
+                    <td><img src="images/clothings.png" alt="Designer Clothing"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Product Snapshots Section -->
+        <h2>Product Snapshots</h2>
+        <div class="product-snapshots">
+            <img src="images/grocery_household.png" alt="Product 1">
+            <img src="images/Vegetables.png" alt="Product 2">
+            <img src="images/clothes.png" alt="Product 3">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="copyright">
+        <p>&copy; Gurjot Singh - 270128223552</p>
+    </div>
+</body>
+</html>
