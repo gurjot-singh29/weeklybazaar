@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/sellers.html">Sellers</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="home" class="section">
+            <h1>Weekly Bazaar</h1>
+        </div>
+
+        <div id="history" >
+            <div class="text-container" style="color: white;">
+                <h2>History</h2>
+                <p>Started back in the days when our grandparents were kids. Our bazaar must have been a lifeline for the community.
+                Over the years, it's evolved, but the heart of it remains the same. The vibrant colors, the lively chatter, the aroma of spices and fresh bread – it's a sensory overload in the best possible way. From the old man selling homemade pickles to the young woman with her trendy handmade jewelry, there's something for everyone. It's more than just a place to shop; it's a community hub, a place where neighbors catch up, share stories, and build relationships.</p>
+            </div>
+            <div class="image-container">
+                <img width="800" src="images/1709772419896.jpeg" alt="History Bazaar">
+            </div>
+        </div>
+        <div id="about1" style="background-color: white;">
+            <div class="image-container">
+                <img width="800" src="images/about.jpg" alt="About Bazaar">
+            </div>            
+            
+            <div class="text-container1" style="color: black;">
+                <h2 style="text-align: left;">About</h2>
+                <p>The Thursday Market in the area is a vibrant and bustling weekly event that brings together local vendors and shoppers from all around. Held every Thursday evening, this market is a hub for fresh produce, handmade crafts, and a variety of fruits and vegetables, all sold at affordable prices. Farmers from nearby villages bring their fresh fruits, vegetables, and dairy products, while artisans showcase unique, handcrafted items, adding a touch of tradition to the experience. The market is not only a great place to shop but also a social gathering point where neighbors and families come together, sharing stories and building community bonds in a lively, welcoming atmosphere.
+
+            </div>         
+        </div>
+
+        <div class="contact-container" style="width: 97.8%;">
+        <div class="form-container">
+             <h2 style="text-align: center;">Contact Us</h2>
+            <form action="submit_contact.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <input type="submit" value="Submit" style="margin-top: 10px;">
+            </form>
+        </div>
+        <div class="map-container" style="display: flex;flex-direction: column;">
+            <div>
+                <a href="https://maps.app.goo.gl/qn2gUoY9knVo9MZU7"><img src="images/thurday_week_market_location.png" alt="Map"></a>    
+            </div>
+            <div style="color: white;display: flex;gap:225px;margin-top: 20px;">
+                <div style="display: flex;gap: 10px;">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>J3QH+9J8, Guru Virjanand Marg,Anand Kunj, KG-III, Delhi, 110018</span>
+                </div>
+                <div style="display: flex;gap: 10px;">
+                    <i class="fas fa-phone-alt"></i><span>+91 7042-777-456</span> 
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; Gurjot Singh - 270128223552</p>
+    </div>
+    </body>
+</html>
